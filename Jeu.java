@@ -41,4 +41,9 @@ public class Jeu {
 		String s = scanner.next() ;
 		return (new Joueur(s)) ;
 	}
+	
+	
+	public static void main(String[] args){
+		partie() ;	
+	}	
 }
